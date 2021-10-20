@@ -79,7 +79,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     Text(
                       'ENTRAR COM O GOOGLE',
-                      style: TextStyle(color: Colors.white70),
+                      style: TextStyle(color: Colors.grey),
                     )
                   ],
                 ),
@@ -111,7 +111,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     Text(
                       'ENTRAR COM FACEBOOK',
-                      style: TextStyle(color: Colors.white70),
+                      style: TextStyle(color: Colors.grey),
                     ),
                   ],
                 ),
@@ -143,7 +143,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     Text(
                       'ENTRAR COM NÚMERO DE TELEFONE',
-                      style: TextStyle(color: Colors.white70),
+                      style: TextStyle(color: Colors.grey),
                     ),
                   ],
                 ),
@@ -160,7 +160,7 @@ class _LoginPageState extends State<LoginPage> {
                 TextButton(
                   onPressed: () {},
                   child: Text(
-                    'Problemas parra fazer o login??',
+                    'Problemas parra fazer o login?',
                     style: TextStyle(color: Colors.white, fontSize: 16.0),
                   ),
                   style: ButtonStyle(splashFactory: NoSplash.splashFactory),
